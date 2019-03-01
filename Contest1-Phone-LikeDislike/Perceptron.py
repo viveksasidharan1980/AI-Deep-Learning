@@ -94,8 +94,8 @@ positive_properties = ['Brand_Apple','Brand_Comio','Brand_Google','Brand_Huawei'
 
 
 #Set the initila value of w
-#Initiliase a HIGH Positive value for Positive Properties
-#Initiliase a LOW Negative value for Positive Properties
+#Initilise a HIGH Positive Weight value for Positive Properties
+#Initilise a LOW Negative Weight value for Negative Properties
 #This will ensure that the model will predict correctly for the Positive and Negative properties
 w_baised = np.ones(X_test.shape[1])
 for column_name in negative_properties:
